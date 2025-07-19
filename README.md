@@ -1,10 +1,15 @@
 # 🌦️ WEATHER DASHBOARD
 
 **COMPANY:** CODTECH IT SOLUTIONS  
+
 **NAME:** Mo Aslam Khan  
+
 **INTERN ID:** CT08DN1583  
-**DOMAIN:** React.js Web Development  
+
+**DOMAIN:** React.js Web Development 
+
 **DURATION:** 8 WEEKS  
+
 **MENTOR:** NEELA SANTOSH
 
 ---
