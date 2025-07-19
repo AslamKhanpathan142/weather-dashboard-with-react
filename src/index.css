@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img {
+    height: 100%;
+    width: 100%;
+    background-image: url('./weather1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    background-color: transparent !important;
+    color: #b1b1b1 !important;
+    border: 1px solid #b1b1b1;
+    width: 100% !important;
+    
+    
+}
+
+
+.text::placeholder{
+    color: #b1b1b1 !important;
+}
+
+.col-lg-4 {
+   
+    background-color: rgba(0, 0, 0, 0.323);
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.col-lg-4 span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #b1b1b1;
+    position: relative;
+    right: 10%;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.temp {
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+.head {
+    font-size: 4rem;
+    font-weight: 400;
+    
+}
+
+.day {
+    font-weight: 400;
+}
+.city {
+    font-weight: 500;
+    
+}
+
+.div {
+    height: 150px;
+    width: 48%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.567);
+    border-radius: 5px;
+    padding-top: 10px;
+   
+}
+.main {
+    min-width: 48%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.feels {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.para {
+    font-size: 14px;
+    
+}
+
+.col-lg-8 {
+    
+   
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.aslam {
+    width: 99%;
+    background-color: rgba(0, 0, 0, 0.323);
+    padding-bottom: 20px;
+    border-radius: 10px;
+    
+}
+.box1 {
+    width: 48%;
+    height: 343px;
+    background-color: rgba(0, 0, 0, 0.567);
+    margin: 0px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+.box2 {
+    width: 31.5%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.567);
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+    color: white;
+}
+
+.box3 {
+    width: 97%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.567);
+    margin: 0px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+.feels1 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.para1 {
+    font-size: 14px;
+    
+}
+
+.box1 {
+    color: white;
+}
+
+.box1 h1 {
+    font-size: 70px;
+}
+
+
+
+/* Responsive styles */
+
+
+/* Tablets (max-width: 991px) */
+@media (max-width: 991px) {
+    .box1, .box2, .box3 {
+        width: 100%;
+        margin-bottom: 16px;
+        height: auto;
+        margin: 10px;
+    }
+    .main {
+        flex-direction: column;
+        min-width: 100%;
+    }
+    .col-lg-4, .col-lg-8 {
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px 0;
+    }
+    .box1 h1 {
+        font-size: 48px;
+    }
+}
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+    .head {
+        font-size: 2rem;
+    }
+    .box1 h1 {
+        font-size: 32px;
+    }
+    .icon {
+        height: 60px;
+        width: 60px;
+    }
+    .div, .box1, .box2, .box3 {
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+        margin: 10px;
+    }
+    .main {
+        flex-direction: column;
+        min-width: 100%;
+    }
+    .feels, .feels1, .para, .para1 {
+        font-size: 12px;
+    }
+}
+
